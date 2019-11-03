@@ -31,7 +31,7 @@ Open source has always been a core pillar of Google Cloud’s data and analytics
 
 ### Everything is connected and the clock is ticking: AI and big ag data for food security (keynote)
 
-Sara Menker and Nemo Semret Come from  outline the complex and interconnected factors that shape the agriculture industry.
+Sara Menker and Nemo Semret come from  outline the complex and interconnected factors that shape the agriculture industry.
 
 
 
@@ -80,6 +80,14 @@ Jordan then explained the gist of spark on k8s is to make Yarn kubernetes-rized,
 * Run spark jobs
 
 Jordan at last shared some best practice on configuration/tips for  spark on K8s
+
+### Some other popular sessions that I did not get a chance to attend
+
+* Deep	Learning	Methods	for	Natural	Language	Processing (Garrett	Hoffman, materials see: https://github.com/GarrettHoffman/talks-and-tutorials/tree/master/strata-2019-dl-for-nlp)
+* An	in-depth	look	at	the	data	science	career:	Defining	roles,	assessing	skills	(Usama	Fayyad, Hamit	Hamutcu)
+  * Usama Fayyad and Hamit Hamutcu launched the Initiative for Analytics and Data Science Standards (IADSS) to support the     
+    development of standards regarding analytics role definitions, required skills, and career advancement paths. 
+
 
 
 

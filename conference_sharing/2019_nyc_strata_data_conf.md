@@ -22,6 +22,11 @@ IMO this is meaningful work since this can cover people with visual impairment, 
 
 
 ### The future of Google cloud data processing (Keynote)
+Open source has always been a core pillar of Google Cloud’s data and analytics strategy. James Malone gives out a prospect of future of opensource data processing, and examines how, as the community continues to set industry standards, the company continues to integrate those standards into its services so organizations around the world can unlock the value of data faster.
+
+* At the very beginning of his speech, James brought up 2 challenges for running cloud dataproc(a managed spark & hadoop distribution) : portability and resource profile flexibility, which can be resolved by kubernetes such as: kubernetes operator for Apache Spark (released on Jan. 2019), cloud dataproc on kubernetes (Alpha, run both Yarn and kubernetes cluster) and kubernetes operator for Apache Flink (Sep. 2019)
+* What it means to data scientists/data engineers? cross-cloud and hybrid cloud support, better OSS component isolation, support for vender-supported components on cloud Dataproc, faster development of cluster/ task management than Apache YARN. What it means to Cloud Dataproc is a uniformed control plane that offers mgmt, security, logging, monitoring across the YARN and kubernetes cluster 
+* Then James gave a recorded demo on how to leverage YARN to trigger a pySpark job and how to do the similar thing in kubernetes world. In kubernetes world, it's using an existing kubernetes cluster (which has network settings there and other stuff running on it etc) and corresponding "helm install" can allow the cluster to plugin to cloud Dataproc APIs. The container for kubernetes world matches the YARN Based images, and don't need to worry about jogging between the two. After specifying the container we want to use, the notebook we want to run, Submit the spark job to the kubernetes cluster, which you don't need open ssh window to check the log output or care about the network settings, etc
 
 
 ### Everything is connected and the clock is ticking: AI and big ag data for food security (keynote)

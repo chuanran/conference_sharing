@@ -35,13 +35,22 @@ Sara Menker and Nemo Semret Come from  outline the complex and interconnected fa
 
 
 
-### Executive Briefing: Top 10 big data blunders: Michael Stonebraker is a computer scientist specializing in database research, CEO of Tamr. 
+### Executive Briefing: Top 10 big data blunders
+Michael Stonebraker is a computer scientist specializing in database research, and he's the CEO of Tamr (database company) as well. In this talk, he gave out top 10 big data blunders based on his academic and industry experiences. The ones that impressed me a lot include:
+* Michael stated that data scientists only put 5%-%10 time/efforts on data science itself, and they have to put most of time on data engineering work such as data gathering, data cleaning, etc, which is not correct. Data engineers and data scientists should work together on the big data project and should make the scope more clear
+* Belief that Hadoop/Spark will solve all your problems: Michael argued that Hadoop/Spark is not very good at anything,i.e. Spark/SQL is not particularly competitive, Spark/Streaming is not particularly competitive; Use "best of breed" not "lowest common denominator", and this is a universal blunder to use only one vendor
+* Outsourcing your new stuff to other companies: Michael thinks it's not wise for enterprises to make the "shiny new stuff" get outsourced, and not wise as well for IT companies to have the best people maintain the legacy buggy stuff.
+* Hire ordinary people to the company: As a CEO, Michael also stated that the company should always try to hire the most talent/strange people (he has a theory that a person who looks more strange/odd means that he may be a talent person at the same time), and should pay more to hire the correct people, i.e. hire the best people on data science and AI
+* Lastly Michael did an advertisement for Tamr as well, and he stated that it's not wise to work for a company that is not trying to do something about the "Sins of the past". 
 
-### From raw data to informed Intelligence: Democratizing data science and ML at Uber
 
 ### Introducing a new anomaly detection algorithm(SR-CNN) inspired by computer vision
-
-### Devops in the cloud: Deploy, monitor, manage and automate
+In this session, Microsoft's Qiyang Li, and Wenyi Yang introduce the pipeline and algorithm of Microsoft’s anomaly-detection service, which is designed to be accurate, efficient, and general. The pipeline consists of three major modules—data ingestion, experimentation platform, and online compute. They developed a novel algorithm based on SR and CNN, which is the first attempt to borrow the SR model from the visual saliency-detection domain and apply it to time series anomaly detection. Moreover, SR and CNN are innovatively combined to improve the performance of the SR model, achieving superior experimental results compared with state-of-the-art baselines on both public datasets and Microsoft production data.  Some key points include:
+* The algorithm borrows the SR (Spectral Residual) model from visual saliency detection field, and apply CNN on the saliency   map produced by SR and train it with faked data;
+* SR is unsupervised, accurate, simple, efficient, and with good generality. Unlikely to train CNN from the original time-series because lack of lables. However it's feasible to train CNN on the saliency map using fully synthetic data.
+* Opensource code & KDD paper
+  * SR in Python: https://github.com/microsoft/anomalydector
+  * KDD 2019: https://www.kdd.org/kdd2019/accepted-papers/view/time-series-anomaly-detection-service-at-microsoft
 
 
 

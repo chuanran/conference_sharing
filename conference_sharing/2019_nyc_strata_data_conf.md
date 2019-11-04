@@ -96,7 +96,10 @@ Jordan at last shared some best practice on configuration/tips for  spark on K8s
 * An	in-depth	look	at	the	data	science	career:	Defining	roles,	assessing	skills	(Usama	Fayyad, Hamit	Hamutcu): Usama Fayyad and Hamit Hamutcu launched the Initiative for Analytics and Data Science Standards (IADSS) to support the development of standards regarding analytics role definitions, required skills, and career advancement paths
 * Handling data gaps in time series using imputation Presentation (Alfred Whitehead, Clare Jeon): Alfred Whitehead and Clare Jeon explore a number of methods for handling data gaps and advise you on which to consider and when. You’ll see how to perform tests to determine which method suits your problem the best. 
 
-### some other popular topics in expo Hall including: data lake, database systems, ML Ops (ops for machine learning),etc
+### some other popular topics in expo Hall including: 
+* data lake ecosystems
+* database systems: graph DB, etc
+* ML Ops (ops for machine learning),etc
 
 
 

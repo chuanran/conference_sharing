@@ -31,9 +31,15 @@ Open source has always been a core pillar of Google Cloud’s data and analytics
 
 ### Everything is connected and the clock is ticking: AI and big ag data for food security (keynote)
 
-Sara Menker and Nemo Semret come from  outline the complex and interconnected factors that shape the agriculture industry.
+Sara Menker and Nemo Semret come from Gro Intelligence, which targets on AI for agricuture.  Gro’s platform automatically harvests vast amounts of disparate global agricultural data, transforms it into knowledge, and generates predictions for volatile markets.
+* Sara started the talk with an example that how the trade war between US and China could impact the agriculture (mostly focus on shortage of soybean) in  China, and she listed lots of contributors like: US is the biggest exporter for the soybean in China, so the duration of trade war is one contributor; how other substitutions of soybean can help make up for the shortage of the soybean; how other exporters can help on the shortage of soybean; the weather condition, disaster prediction , etc. Based on this example, Sara stated that there are lots of data need to be gathered for agriculture AI,outline the complex and interconnected factors that shape the agriculture industry, and everything is connected. Then Sara gave some basic introduction about what Gro Intelligence is doing and how it can help on establishing model for this kind of agriculture issues.
 
-
+* Nemo, the CTO of Gro Intelligence gave out more details about the agriculture data/ontology challenges  Gro Intelligence faces such as following:
+  * data volume is huge: every pixel on the earth, every day for 40 years; 100k weather stations, etc
+  * data formats: satellite projections, PDF of scanned tables of data
+  * different human languages since it's reported by all over the world
+  * coverage/lags: human error, satellite can be covered by cloud, etc
+  *
 
 ### Executive Briefing: Top 10 big data blunders
 Michael Stonebraker is a computer scientist specializing in database research, and he's the CEO of Tamr (database company) as well. In this talk, he gave out top 10 big data blunders based on his academic and industry experiences. The ones that impressed me a lot include:
@@ -86,6 +92,9 @@ Jordan at last shared some best practice on configuration/tips for  spark on K8s
 * Deep	Learning	Methods	for	Natural	Language	Processing (Garrett	Hoffman, materials see: https://github.com/GarrettHoffman/talks-and-tutorials/tree/master/strata-2019-dl-for-nlp)
 * An	in-depth	look	at	the	data	science	career:	Defining	roles,	assessing	skills	(Usama	Fayyad, Hamit	Hamutcu): Usama Fayyad and Hamit Hamutcu launched the Initiative for Analytics and Data Science Standards (IADSS) to support the development of standards regarding analytics role definitions, required skills, and career advancement paths
 * Handling data gaps in time series using imputation Presentation (Alfred Whitehead, Clare Jeon): Alfred Whitehead and Clare Jeon explore a number of methods for handling data gaps and advise you on which to consider and when. You’ll see how to perform tests to determine which method suits your problem the best. 
+
+### some other popular topics in expo Hall including: data lake, database systems, ML Ops (ops for machine learning),etc
+
 
 
 

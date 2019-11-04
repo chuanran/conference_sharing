@@ -1,5 +1,5 @@
 # Strata data Conference 2019 - New York City
-I got a chance to attend [O’Reilly Strata data Conference 2019 - NYC, New York](https://conferences.oreilly.com/strata/strata-ny), here are some talks I feel worth sharing. Please be mindful that this is a small selection. There are multiple parallel sessions happening and I can only attend one at a time. You can find all the useful https://conferences.oreilly.com/strata/strata-ny/public/schedule/proceedings
+I got a chance to attend [O’Reilly Strata data Conference 2019 - NYC, New York](https://conferences.oreilly.com/strata/strata-ny), here are some talks I feel worth sharing. Please be mindful that this is a small selection. There are multiple parallel sessions happening and I can only attend one at a time. You can find most of the recordings (not full version though) here: https://conferences.oreilly.com/strata/strata-ny/public/schedule/proceedings
 
 
 ### The road to an enterprise cloud (keynote)
@@ -100,12 +100,3 @@ Jordan at last shared some best practice on configuration/tips for  spark on K8s
 * data lake ecosystems
 * database systems: graph DB, etc
 * ML Ops (ops for machine learning),etc
-
-
-
-
-
-
-
-
-

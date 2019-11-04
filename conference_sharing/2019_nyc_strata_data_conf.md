@@ -39,7 +39,10 @@ Sara Menker and Nemo Semret come from Gro Intelligence, which targets on AI for 
   * data formats: satellite projections, PDF of scanned tables of data
   * different human languages since it's reported by all over the world
   * coverage/lags: human error, satellite can be covered by cloud, etc
-  *
+  * Time: need to understand
+  * Entities: lots of different entities such as there could be 50+ varieties for wheat (winter, spring, hard, soft, etc), protein content of wheat, sugar content of cane, etc
+
+* When back to how Gro intelligence do the modeling about the agriculture data, Sara gave an example on Gro's unified model of agriculture applied to China and Swine fever, actually it's  modeling interplay between supply, demand, trade, price, for evey combination, every commodity, over and over again, then have to multiply that by each country that's connected to China. 
 
 ### Executive Briefing: Top 10 big data blunders
 Michael Stonebraker is a computer scientist specializing in database research, and he's the CEO of Tamr (database company) as well. In this talk, he gave out top 10 big data blunders based on his academic and industry experiences. The ones that impressed me a lot include:
